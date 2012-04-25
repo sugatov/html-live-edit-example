@@ -103,7 +103,7 @@ ul {
 */
 
 ul {
-	list-style-image: url(file://w:/home/aquapack.ru/www/arrow.png);
+	list-style-image: url(../arrow.png);
 }
 
 ol, ul {
