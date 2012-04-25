@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #555;
+	
+}
+
+object {
+	display: inline-block;
+}
+
+img {
+	border: none;
+}
+img.shadow {
+	-webkit-box-shadow: #555 0px 0px 6px;
+}
+
+a {
+	text-decoration: underline;
+	color: #7900ff;
+}
+a:hover {
+	text-shadow: #7900ff 0px 0px 2px;
+	color: #fff;
+}
+
+hr {
+	border: solid #ccc 1px;
+}
+
+
+h6,h5,h4,h3 {
+	font-size: 10pt;
+	font-weight: bold;
+}
+h2 {
+	font-size: 14pt;
+	font-weight: bold;
+	border-bottom: dotted #ccc 1px;
+	text-indent: 0.5em;
+
+}
+h1 {
+	font-size: 18pt;
+	font-weight: bold;
+	border-bottom: solid #ccc 2px;
+	text-indent: 0.2em;
+
+}
+h1,h2 {
+	text-shadow: #999 1px 1px 1px;
+	//text-shadow: #fff 2px 2px 2px, #999 3px 3px 0px; 
+}
+
+
+
+input, select, button {
+	margin:1px;
+	padding: 2px;
+	border: solid 1px #aaa;
+	color: #333;
+	-webkit-border-radius: 4px;
+}
+input:focus, select:focus{
+	-webkit-box-shadow: #3d6bc2 0px 0px 10px;
+}
+
+button,.button {
+	font-weight: bold;
+	min-width: 70px;
+	background-color: #ccc;
+	text-shadow: #999 1px 1px 1px;
+}
+button:hover,.button:hover {
+	color: #555;
+	background-color: #ddd;
+	-webkit-box-shadow: #3d6bc2 0px 0px 10px;
+}
+button:active,.button:active {
+	background-color: #333;
+	color: #fff;
+	border-color: #000;
+	
+}
+
+/*
+ul {
+	//list-style-position: inside;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+ul li:before {
+	content: "\00BB \0020";
+	}
+ul {
+	list-style-image: url();
+}
+*/
+
+ul {
+	list-style-image: url(file://w:/home/aquapack.ru/www/arrow.png);
+}
+
+ol, ul {
+	margin-left: 0em;
+	padding-left: 2em;
+	text-indent: -2em;
+}
+ol li, ul li {
+	text-indent: 0;
+}
+
+
+
+
+
+
+
+.fg{
+	width:844px;
+}
+.fg_ed{
+	//width:846px;
+}
+
+.pgfg{
+	-webkit-box-shadow: #555 0px 4px 14px;
+}
+
+#header{
+	margin-bottom: 0.5em;
+	
+}
+
+#nav{
+	text-align: left;
+}
+
+#page{
+	text-align: left;
+	padding: 22px;
+	
+	background-color: #fff;
+	//min-height: 200px;
+}
+
+#footer{
+	position: fixed;
+	bottom: 0px;
+}
+
+#nav a{
+	display: table-cell;
+	
+	height: 24px;
+	width: 100px;
+	
+	text-align: center;
+	vertical-align: middle;
+	
+	color: #555;
+	font-weight: bold;
+	text-shadow: #777 0px 1px 1px;
+	
+	background-color: #f0f0f0;
+	
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 12px;
+}
+#nav a:hover{
+	background-color: #6a7395;
+	color: #fff;
+}
+
+

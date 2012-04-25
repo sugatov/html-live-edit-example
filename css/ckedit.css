@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+@import url(basic_reset.css);
+@import url(main.css);
+
+body {
+	background-color: none;
+	padding: 2px;
+}

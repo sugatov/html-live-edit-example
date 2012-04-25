@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+uul {
+    padding-left:1em;
+    margin-left:0em;
+}
+
+h1, h2, h3, h4, h5, h6, p, blockquote,
+ form, label, ul, ol, dl, fieldset, address, pre, code {
+    margin-bottom: 1em;
+}
+
+hr{
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
