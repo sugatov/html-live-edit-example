@@ -13,11 +13,6 @@
 <script type="text/javascript" src="./ckeditor/ckeditor.js"></script>
 <script type="text/javascript" src="./ckeditor/adapters/jquery.js"></script>
 
-<!--[if lt IE 7]>
- <style type="text/css">
- .dock img { behavior: url(iepngfix.htc) }
- </style>
-<![endif]-->
 
 </head>
 
@@ -28,15 +23,6 @@
 <center>
 <div class="fg">
 	
-	<div id="header">
-		header
-	</div>
-	
-	<div id="nav">
-		<a href="#">Домой</a>
-		<a href="#">Материалы</a>
-		<a href="#">Загрузки</a>
-	</div>
 	<div class="pgfg">
 		
 		<div style="background-color: #fff;">
@@ -47,19 +33,7 @@
 			<textarea id="ckeditor" style="display:none;"></textarea>
 			
 			<script type="text/javascript">
-			/*CKEDITOR.replace( 'ckeditor',
-			    {
-			        //filebrowserBrowseUrl : '/cp/ck_browse.html',
-			        //filebrowserImageBrowseUrl : '/cp/ck_browse.html?images',
-			        //filebrowserUploadUrl : '/cp/ck_upload.html',
-			        //filebrowserWindowWidth : '724',
-		        	//filebrowserWindowHeight : '500',
-		        	//language : 'ru',
-		        	width : '784',
-		        	height : '370'
-			    });
-			*/
-			
+						
 			function ck(){
 				$("#ckeditor").ckeditor( function() { /* callback code */ }, {
 					height: '400',
@@ -142,10 +116,6 @@
 		</div>
 		
 		
-	</div>
-	
-	<div id="footer">
-		foot
 	</div>
 	
 	
